@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Website</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://kit.fontawesome.com/5dd8690974.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <section id="landing">
@@ -75,7 +76,7 @@
       </header>
     </section>
     <main>
-      <section class="features">
+    <section class="features">
         <div class="container">
           <div class="features__tag"><span class="purple">FEATURES</span></div>
           <h2 class="section__title">
@@ -191,8 +192,8 @@
             </div>
           </div>
         </div>
-      </section>
-      <section id="Quality">
+    </section>
+    <section id="Quality">
         <div class="container">
           <div class="quality__row">
             <div class="quality__description">
@@ -216,14 +217,13 @@
               <figure class="quality__image">
                 <img
                   src="assets/hero-screenshot-1.40a097b525c2f8c9808e.png"
-                  alt="quality__img"
-                />
+                  alt="quality__img">
               </figure>
             </div>
           </div>
         </div>
-      </section>
-      <section id="steps">
+    </section>
+    <section id="steps">
         <div class="container">
           <div class="steps__container">
             <div class="steps__image">
@@ -265,9 +265,9 @@
             </div>
           </div>
         </div>
-      </section>
+    </section>
 
-      <section id="Values">
+    <section id="Values">
         <div class="container">
           <div class="value__row">
             <div class="value__description">
@@ -313,14 +313,13 @@
               <figure class="value__image">
                 <img
                   src="assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg"
-                  alt="Value Illustration"
-                />
+                  alt="Value Illustration">
               </figure>
             </div>
           </div>
         </div>
-      </section>
-      <section id="pricing">
+    </section>
+    <section id="pricing">
         <div class="container">
           <div class="row">
             <div class="pricing__tag"><span class="purple">PRICING</span></div>
@@ -332,56 +331,112 @@
             </p>
           </div>
         </div> 
-        <div class="plans">
-            <div class="plan__stripe">
-                <div class="plan__top">
-                <div class="plan__card plan__card--personal">
-                <h3>PERSONAL</h3>
-                <h2>$17.99</h2>
-                <p class="monthly">MONTHLY</p>
-                </div>
-                <div class="plan__features--middle">
-                    <p><strong>For Individuals</strong></p>
-                    <p>30 Templates</p>
-                    <p>7 Landing Pages</p>
-                    <p>12 Internal Pages</p>
-                    <p>Basic Assistance</p>
-                </div>
-                <div class="plan__middle">
-                <button class="plan__button personal">BUY NOW</button>
-                </div>
+    </section>     
+    <section class="plans">
+
+        <div class="plan plan--personal">
+          <div class="plan__stripe"></div>
+            <div class="plan__top">
+              <h3 class="plan__name">PERSONAL</h3>
+              <h2 class="plan__price">$17.99</h2>
+              <p class="plan__duration">MONTHLY</p>
+            </div>
+            <div class="plan__middle">
+              <p><strong>For Individuals</strong></p>
+              <p>30 Templates</p>
+              <p>7 Landing Pages</p>
+              <p>12 Internal Pages</p>
+              <p>Basic Assistance</p>
+            </div>
+            <div class="plan__bottom">
+              <button class="plan__button personal">BUY NOW</button>
+            </div>
+          </div>
+        <div class="plan plan--business">
+          <div class="plan__stripe"></div>
+            <div class="plan__top">
+              <h3 class="plan__name">BUSINESS</h3>
+              <h2 class="plan__price">$37.99</h2>
+              <p class="plan__duration">MONTHLY</p>
+            </div>
+            <div class="plan__middle">
+              <p><strong>For Small Businesses</strong></p>
+              <p>60 Templates</p>
+              <p>15 Landing Pages</p>
+              <p>22 Internal Pages</p>
+              <p>Priorit Assistance</p>
+            </div>
+            <div class="plan__bottom">
+              <button class="plan__button business">BUY NOW</button>
+            </div>
+          </div>
+        <div class="plan plan--enterprise">
+          <div class="plan__stripe"></div>
+            <div class="plan__top">
+              <h3 class="plan__name">ENTERPRISE</h3>
+              <h2 class="plan__price">$57.99</h2>
+              <p class="plan__duration">MONTHLY</p>
+            </div>
+            <div class="plan__middle">
+              <p><strong>For Large Companies</strong></p>
+              <p>90 Templates</p>
+              <p>27 Landing Pages</p>
+              <p>37 Internal Pages</p>
+              <p>Personal Assistance</p>
+            </div>
+            <div class="plan__bottom">
+              <button class="plan__button enterprise">BUY NOW</button>
+            </div>
+          </div> 
+        </div> 
+    </section>
+    <section id="testimonials">
+        <div class="testimonial__container">
+
+          <figure class="testimonial__image">
+            <img src="assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt="love Illustration"> 
+          </figure>
+
+          <div class="testimonial__description">
+            <div class="section__tag"><span class="purple">TESTIMONIALS</span></div>
+            <h2 class="testimonial__title">Our Clients <span class="purple">Love Us.</span>
+            </h2>
+            <p class="testimonial__para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat cum sunt nostrum facere alias? Aliquam alias facilis, consectetur quasi tenetur quos dolorum optio suscipit laudantium? Qui totam ut eum eveniet.
+            </p>
+        
+            <div class="testimonial__ratings">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
 
-            <div class="plan__card plan__card--business">
-                <h3>BUSINESS</h3>
-                <h2>$37.99</h2>
-                <p class="monthly">MONTHLY</p> 
-                <div class="plan__features">
-                    <p><strong>For Small Businesses</strong></p>
-                    <p>60 Templates</p>
-                    <p>15 Landing Pages</p>
-                    <p>22 Internal Pages</p>
-                    <p>Priority Assistance</p>
-                </div>
-                <button class="plan__button business">BUY NOW</button>
+            <h3 class="testimonial__quote">
+            Amazing User Experience
+            </h3>
+            <p class="testimonial__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reiciendis veniam neque, asperiores voluptatibus ut perspiciatis deleniti atque vitae tempore iste suscipit provident libero corporis quas vero perferendis repellendus. Eos.
+            </p>
+            <div class="testimonial__bottom">
+              <div class="testimonial__reviewer">
+                <img src="assets/photo-1494790108377-be9c29b29330.avif" alt="Charlotte Hale">
+              <div class="reviewer__info">
+                <p class="reviewer__name"> Charlotte Hale</p>
+                <p class="reviewer__title"> Director, Delos Inc.</p>
+              </div>
             </div>
         
-            <div class="plan__card plan__card--enterprise">
-                <h3>ENTERPRISE</h3>
-                <h2>$57.99</h2>
-                <p class="monthly">MONTHLY</p> 
-                <div class="plan__features">
-                    <p><strong>For Large Companies</strong></p>
-                    <p>90 Templates</p>
-                    <p>27 Landing Pages</p>
-                    <p>37 Internal Pages</p>
-                    <p>Personal Assistance</p>
-                </div>
-                <button class="plan__button enterprise">BUY NOW</button>
+            <div class="testimonial__arrows">
+              <button class="arrow left"><i class="fas fa-arrow-left"></i></button>
+              <div class="arrow-divider"></div>
+              <button class="arrow right"><i class="fas fa-arrow-right"></i></button>
             </div>
-
+          </div>
         </div>
-      </section>
-    </main>
+    </section>
+
+  </main>
   </body>
 </html>
