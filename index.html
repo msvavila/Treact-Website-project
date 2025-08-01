@@ -16,20 +16,29 @@
             <a href="#">
               <img src="assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="Logo"/></a>
             <a href="#" class="nav__logo--name">Treact</a>
-          </div>
+            </div>
 
-          <ul class="nav__links">
-            <li><a href="#" class="nav__link">About</a></li>
-            <li><a href="#" class="nav__link">Blog</a></li>
-            <li><a href="#" class="nav__link">Pricing</a></li>
-            <li><a href="#" class="nav__link">Contact Us</a></li>
-            <li><a href="#" class="nav__link">Login</a></li>
-            <li>
-              <a href="#" class="nav__link nav__link--primary">Sign Up</a>
-            </li>
-          </ul>
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fas fa bars"></i>
+          </button>
+
+          <div class="menu__backdrop" id="mobileMenu">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fas fa-times"></i>
+            </button>
+          
+            <ul class="nav__links">
+              <li><a href="#" class="nav__link" onclick="closeMenu()">About</a></li>
+              <li><a href="#" class="nav__link" onclick="closeMenu()">Blog</a></li>
+              <li><a href="#" class="nav__link" onclick="closeMenu()">Pricing</a></li>
+              <li><a href="#" class="nav__link" onclick="closeMenu()">Contact Us</a></li>
+              <li><a href="#" class="nav__link" onclick="closeMenu()">Login</a></li>
+              <li><a href="#" class="nav__link nav__link--primary" onclick="closeMenu()">Sign Up</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
+    </section> 
 
       <header>
         <div class="header">
