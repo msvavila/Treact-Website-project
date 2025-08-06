@@ -19,15 +19,24 @@
             </div>
 
           <button class="btn__menu" onclick="openMenu()">
-            <i class="fas fa bars"></i>
+            <i class="fas fa-bars"></i>
           </button>
 
-          <div class="menu__backdrop" id="mobileMenu">
+          <ul class="nav__links desktop__links">
+            <li><a href="#" class="nav__link">About</a></li>
+            <li><a href="#" class="nav__link">Blog</a></li>
+            <li><a href="#" class="nav__link">Pricing</a></li>
+            <li><a href="#" class="nav__link">Contact Us</a></li>
+            <li><a href="#" class="nav__link">Login</a></li>
+            <li><a href="#" class="nav__link nav__link--primary">Sign Up</a></li>
+          </ul>
+
+          <div class="menu__backdrop hidden" id="mobileMenu">
             <button class="btn__menu btn__menu--close" onclick="closeMenu()">
               <i class="fas fa-times"></i>
             </button>
           
-            <ul class="nav__links">
+            <ul class="nav__links mobile__links">
               <li><a href="#" class="nav__link" onclick="closeMenu()">About</a></li>
               <li><a href="#" class="nav__link" onclick="closeMenu()">Blog</a></li>
               <li><a href="#" class="nav__link" onclick="closeMenu()">Pricing</a></li>
